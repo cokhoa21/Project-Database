@@ -8,80 +8,6 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css">
 </head>
 <body>
-    <!--START THE NAVBAR SECTION-->
-
-      <!--START THE LOGIN SECTION-->
-      <div class="row">
-        <div class="col-md-3">
-            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark dashboard" style="width: 280px">
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                  <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                  <span class="fs-4">Sidebar</span>
-                </a>
-                <hr>
-                <ul class="nav nav-pills flex-column mb-auto">
-                  <li class="nav-item">
-                    <a href="index.html" class="nav-link active" aria-current="page">
-                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-                      Trang cá nhân
-                    </a>
-                  </li>
-                  <li>
-                    <div class="dropdown">
-                        <a href="#" class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown"><svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-                            Bán hàng</a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="khachhang.html">Khách hàng</a></li>
-                          <li><a class="dropdown-item" href="sanpham.html">Sản phẩm</a></li>
-                          <li><a class="dropdown-item" href="hoadon.html">Hóa đơn</a></li>
-                        </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="dropdown">
-                        <a href="#" class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown"><svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-                            Quản lý</a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="quanlynhanvien.html">Nhân viên</a></li>
-                          <li><a class="dropdown-item" href="quanlykhachhang.html">Khách hàng</a></li>
-                          <li><a class="dropdown-item" href="quanlysanphamquay.html">Sản phẩm quầy</a></li>
-                        </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="thongke.html" class="nav-link text-white">
-                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                      Thống kê
-                    </a>
-                  </li>
-                  <li>
-                    <a href="dangnhap.html" class="nav-link text-white">
-                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-                      Đăng nhập
-                    </a>
-                  </li>
-                  <li>
-                    <a href="dangky.html" class="nav-link text-white">
-                      <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-                      Đăng ký
-                    </a>
-                  </li>
-                </ul>
-                <hr>
-                <div class="dropdown">
-                  <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                    <strong>Cồ Huy Khoa</strong>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                    <li><a class="dropdown-item" href="index.html">Profile</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
-                  </ul>
-                </div>
-              </div>
-        </div>
-        <div class="col-md-9">
             <section class="text-center">
                 <div class="card mx-4 mx-md-5 shadow-5-strong" style="
                       margin-top: -100px;
@@ -99,13 +25,13 @@
                             <div class="col-md-6 mb-4">
                               <div class="form-outline">
                                 <input type="text" id="form3Example1" class="form-control" />
-                                <label class="form-label" for="form3Example1">First name</label>
+                                <label class="form-label" for="form3Example1">Họ</label>
                               </div>
                             </div>
                             <div class="col-md-6 mb-4">
                               <div class="form-outline">
                                 <input type="text" id="form3Example2" class="form-control" />
-                                <label class="form-label" for="form3Example2">Last name</label>
+                                <label class="form-label" for="form3Example2">Tên</label>
                               </div>
                             </div>
                           </div>
@@ -113,31 +39,31 @@
                           <!-- Email input -->
                           <div class="form-outline mb-4">
                             <input type="email" id="form3Example3" class="form-control" />
-                            <label class="form-label" for="form3Example3">Email address</label>
+                            <label class="form-label" for="form3Example3">Địa chỉ email</label>
                           </div>
               
                           <!-- Password input -->
                           <div class="form-outline mb-4">
                             <input type="password" id="form3Example4" class="form-control" />
-                            <label class="form-label" for="form3Example4">Password</label>
+                            <label class="form-label" for="form3Example4">Mật khẩu</label>
                           </div>
               
                           <!-- Checkbox -->
                           <div class="form-check d-flex justify-content-center mb-4">
                             <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
                             <label class="form-check-label" for="form2Example33">
-                              Subscribe to our newsletter
+                              Đăng ký với chúng tôi
                             </label>
                           </div>
               
                           <!-- Submit button -->
-                          <button type="submit" class="btn btn-primary btn-block mb-4">
-                            Sign up
-                          </button>
+                          <a href="dangnhap.html"><button type="button" class="btn btn-primary btn-block mb-4">
+                            Đăng ký
+                          </button></a>
               
                           <!-- Register buttons -->
                           <div class="text-center">
-                            <p>or sign up with:</p>
+                            <p>hoặc đăng ký với:</p>
                             <button type="button" class="btn btn-link btn-floating mx-1">
                               <i class="fab fa-facebook-f"></i>
                             </button>
@@ -160,9 +86,6 @@
                   </div>
                 </div>
               </section>
-        </div>
-      </div>
-
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
